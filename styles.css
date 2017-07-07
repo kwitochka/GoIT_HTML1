@@ -1,25 +1,30 @@
-body {
-	margin-left: 20%;
-    margin-right: 20%; 
-}h1 {
+* {
+	margin: 0;
+}
+
+.wrapper {
+	margin: auto;
+	width: 600px;
+}
+
+hr {
+	margin: 15px 0;
+}
+
+h1 {
 	text-align: center;
 }
 
-.photo {
-	position: center;
-    border: 1px solid #B0B0B0; 
+img {
+	display: block;
+	margin: 0 auto;
+    border: 1px solid #B0B0B0;
 }
 
-p, 
-h3 {
-	text-align: left;
+figcaption {
+	color: gray;
 }
 
-li{
-	text-align: left;
-	list-style-type:none;
-}
-
-div li{
-	list-style-type: disc;
+h1, p, h3 {
+	line-height: 2;
 }
